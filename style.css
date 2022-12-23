@@ -1,0 +1,56 @@
+body {
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    background: #FCB31B;
+}
+
+.container {
+    background: grey;
+    display: grid;
+    width: 400px;
+    height: 600px;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    padding: 20px;
+    border-radius: 3%;
+    border-style: solid;
+}
+
+.span-2 {
+    background: lightblue;
+    grid-column: span 2;
+}
+
+#inp {
+    grid-column: span 4;
+    display: flex;
+    flex-direction: column;
+}
+
+#screen-last,#screen-current{
+    font-size: 25px;
+    text-align: end;
+    width: 390px;
+}
+
+#screen-current{
+    font-size: 50px;
+}
+
+input{
+    border: none;
+}
+
+button {
+    border-radius: 5px;
+    font-size: inherit;
+}
+
+button {
+    background: lightcoral;
+}
+
+#del {
+    background: lightsalmon
+}
