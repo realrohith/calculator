@@ -28,17 +28,18 @@ body {
     flex-direction: column;
 }
 
-#screen-last,#screen-current{
+#screen-last,
+#screen-current {
     font-size: 25px;
     text-align: end;
     width: 390px;
 }
 
-#screen-current{
+#screen-current {
     font-size: 50px;
 }
 
-input{
+input {
     border: none;
 }
 
@@ -53,4 +54,9 @@ button {
 
 #del {
     background: lightsalmon
+}
+
+.hover {
+    transform: scale(1.05);
+    filter: brightness(80%);
 }
